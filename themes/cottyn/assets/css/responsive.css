@@ -1,0 +1,110 @@
+@media(max-width: 1399px){
+	.container-lg{
+		max-width: 1430px;
+	}
+}
+
+@media(max-width: 1199px){
+	
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	h1,.fl-h1{
+		font-size: 75px;
+	}
+	h2,.fl-h2{
+		font-size: 42px;
+	}
+	h3,.fl-h3{
+		font-size: 32px;
+	}
+	h4,.fl-h4{
+		font-size: 28px;
+	}
+	h5,.fl-h5{
+		font-size: 22px;
+	}
+	h6,.fl-h6{
+		font-size: 18px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	h1,.fl-h1{
+		font-size: 65px;
+	}
+	h2,.fl-h2{
+		font-size: 39px;
+	}
+	h3,.fl-h3{
+		font-size: 30px;
+	}
+	h4,.fl-h4{
+		font-size: 26px;
+	}
+	h5,.fl-h5{
+		font-size: 21px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.container,
+	.container-xlg,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xs{
+		padding-right: 20px;
+    	padding-left: 20px;
+	}
+	.row{
+		margin-right: -20px;
+	    margin-left: -20px;
+	}
+	.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	h1,.fl-h1{
+		font-size: 55px;
+	}
+	h2,.fl-h2{
+		font-size: 36px;
+	}
+	h3,.fl-h3{
+		font-size: 32px;
+	}
+	h4,.fl-h4{
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	h1,.fl-h1{
+		font-size: 48px;
+	}
+
+}

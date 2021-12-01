@@ -1,0 +1,386 @@
+.cta-module-sec{
+	position: relative;
+	overflow: hidden;
+}
+.cta-module-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 3;
+	background-attachment: fixed;
+}
+.cta-video-cntlr{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+	z-index: 3;
+}
+#cta-vdo{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	min-width: 100%;
+	min-height: 100%;
+}
+.has-vdo .cta-video-cntlr{
+	display: block;
+}
+.has-vdo .cta-module-bg{
+	display: none;
+}
+.cta-module-overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background: rgba(60, 108, 84, 1);
+}
+.cta-module-cntlr{
+	position: relative;
+	z-index: 5;
+	padding: 150px 0;
+}
+.cta-module-desc{
+	max-width: 790px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #DEEDE6;
+}
+.cta-module-title{
+	color: #DEEDE6;
+	margin-bottom: 20px;
+}
+.cta-module-desc p{
+	line-height: 1.42;
+}
+.cta-module-desc p:last-of-type{
+	margin-bottom: 30px;
+}
+.cta-module-btn .fl-tc-btn:hover{
+	background: #fff;
+	border-color: #fff;
+	color: #46C691;
+}
+.canoetrip-fag-sec{
+	position: relative;
+	padding-top: 110px;
+	padding-bottom: 108px;
+}
+.tekening-img{
+	position: absolute;
+	left: 0;
+	bottom: -100px;
+	z-index: 1;
+	max-width: 462px;
+	width: 100%;
+	height: 450px;
+	background-size: contain!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.canoetrip-fag-cntlr{
+	position: relative;
+	z-index: 3;
+}
+.cntrp-fag-title{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.cntrp-fag{
+	
+}
+.cntrp-fag ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cntrp-fag ul li{
+	width: 44%;
+}
+.cntrp-fag ul li:nth-child(2n+2){
+	margin-left: auto;
+}
+.cntrp-faq-accordion{
+	margin-bottom: 38px;
+	border-bottom: 2px solid #F8F8F8;
+}
+.cntrp-faq-accordion-hdr{
+	margin-bottom: 34px;
+	cursor: pointer;
+}
+.cntrp-faq-accordion-title{
+	color: #444440;
+	margin-bottom: 0;
+	position: relative;
+	padding-right: 40px;
+	font-size: 21px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.cntrp-faq-accordion-title:hover{
+	color: #46C691;
+}
+.cntrp-faq-accordion-title:after{
+	position: absolute;
+	content: '';
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	background-image: url('../images/fag-plus-icon.png');
+	width: 28px;
+	height: 28px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	margin-top: -3px;
+}
+.active .cntrp-faq-accordion-title:after{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	background-image: url('../images/fag-minus-icon.png');
+}
+.cntrp-faq-accordion-desc{
+	margin-bottom: 28px;
+	padding-right: 50px;
+	color: #444440;
+	display: none;
+}
+.cntrp-faq-accordion-desc p{
+	font-size: 17px;
+}
+.cntrp-faq-accordion-desc p:last-of-type{
+	margin-bottom: 0;
+}
+.cntrp-fag-btn{
+	text-align: center;
+}
+.cntrp-fag-btn a{
+	display: inline-block;
+    color: #46C691;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 13px 60px 13px 28px;
+    font-weight: 600;
+    border: 2px solid #46C691;
+    /*text-transform: capitalize;*/
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+.cntrp-fag-btn a i{
+	position: absolute;
+	right: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	margin-top: -2px;
+}
+.cntrp-fag-btn a i svg{
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.cntrp-fag-btn a:hover{
+	background: #46C691;
+	color: #fff;
+}
+.cntrp-fag-btn a:hover i{
+	right: 22px;
+}
+.cntrp-fag-btn a:hover i svg{
+	fill: #fff;
+}
+.hm-socials-gallery-sec{
+
+}
+.hm-socials-glry-sub-title{
+	margin-bottom: 12px;
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	width: 100%;
+	line-height: 1;
+	text-align: center;
+	color: #444440;
+}
+.hm-socials-glry-title{
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #3C6C54;
+}
+.hm-socials-gallery{
+
+}
+@media(max-width: 1899px){
+	.tekening-img{
+		max-width: 400px;
+		height: 400px;
+	}
+}
+@media(max-width: 1699px){
+	.tekening-img{
+		max-width: 350px;
+		height: 350px;
+	}
+}
+@media(max-width: 1599px){
+	.tekening-img{
+		max-width: 320px;
+		height: 310px;
+		bottom: -80px;
+	}
+}
+@media(max-width: 1399px){
+	.tekening-img{
+		max-width: 300px;
+		height: 290px;
+		bottom: -50px;
+		background-position: left -52px center!important;
+		overflow: hidden;
+	}
+}
+@media(max-width: 1299px){
+	.cntrp-fag ul li{
+		width: 46%;
+	}
+	.tekening-img{
+		max-width: 250px;
+		height: 240px;
+	}
+}
+@media(max-width: 1199px){
+	.cta-module-cntlr{
+		padding: 135px 0;
+	}
+	.cntrp-fag ul li{
+		width: 47.5%;
+	}
+	.cntrp-faq-accordion-title{
+		font-size: 21px!important;
+		padding-right: 35px;
+	}
+	.cntrp-faq-accordion-title:after{
+		height: 26px;
+		width: 26px;
+		margin-top: 0;
+	}
+	.canoetrip-fag-sec{
+		padding-top: 90px;
+	}
+	.cntrp-faq-accordion-desc{
+		padding-right: 26px;
+	}
+	.tekening-img{
+		max-width: 220px;
+		height: 210px;
+	}
+}
+@media(max-width: 991px){
+	.cta-module-cntlr{
+		padding: 120px 0;
+	}
+	.hm-socials-glry-sub-title{
+		font-size: 17px;
+	}
+	.canoetrip-fag-sec{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.cntrp-fag{
+		max-width: 550px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cntrp-fag ul li{
+		width: 100%;
+	}
+	.cntrp-faq-accordion-title:after{
+		height: 24px;
+		width: 24px;
+		margin-top: 0;
+	}
+	.cntrp-faq-accordion{
+		margin-bottom: 34px;
+	}
+	.cntrp-faq-accordion-hdr{
+		margin-bottom: 28px;
+	}
+	.cntrp-faq-accordion-desc{
+		padding-right: 20px;
+	}
+}
+@media(max-width: 767px){
+	.cta-module-cntlr{
+		padding: 110px 0;
+	}
+	.cta-module-desc p:last-of-type{
+		margin-bottom: 16px;
+	}
+	.hm-socials-glry-title{
+		margin-bottom: 30px;
+	}
+	.hm-socials-glry-sub-title{
+		font-size: 16px;
+	}
+	.canoetrip-fag-sec{
+		padding-top: 75px;
+		padding-bottom: 73px;
+	}
+	.cntrp-faq-accordion-title{
+		font-size: 20px!important;
+	}
+	.cntrp-faq-accordion{
+		margin-bottom: 28px;
+	}
+	.cntrp-faq-accordion-hdr{
+		margin-bottom: 24px;
+	}
+	.cntrp-faq-accordion-desc{
+		padding-right: 0px;
+	}
+	.cta-module-btn .fl-tc-btn{
+		min-width: 160px;
+	}
+	.cntrp-faq-accordion-title{
+		padding-right: 40px;
+	}
+	.cntrp-faq-accordion-title:after{
+		width: 30px;
+		height: 30px;
+	}
+}
+@media(max-width: 639px){
+	.cntrp-fag{
+		max-width: 100%;
+	}
+}

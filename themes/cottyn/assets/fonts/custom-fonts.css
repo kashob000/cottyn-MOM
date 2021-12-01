@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: 'Bourton-Base';
+    src: url('BourtonBase/BourtonBase.eot');
+    src: url('BourtonBase/BourtonBase.eot?#iefix') format('embedded-opentype'),
+        url('BourtonBase/BourtonBase.woff2') format('woff2'),
+        url('BourtonBase/BourtonBase.woff') format('woff'),
+        url('BourtonBase/BourtonBase.ttf') format('truetype'),
+        url('BourtonBase/BourtonBase.svg#BourtonBase') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

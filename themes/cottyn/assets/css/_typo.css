@@ -1,0 +1,32 @@
+/**
+All heading
+*/
+h1,h2,h3,h4,h5,h6{
+	line-height: 1;	
+	margin-top: 0;
+	margin-bottom: 20px;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #3C6C54;
+	font-family: 'Bourton-Base';
+	/*font-family: 'Bourton-Regular';*/
+}
+h1,.fl-h1{
+	font-size: 82px;
+}
+h2,.fl-h2{
+	font-size: 46px;
+}
+h3,.fl-h3{
+	font-size: 34px;
+	color: #444440;
+}
+h4,.fl-h4{
+	font-size: 30px;
+}
+h5,.fl-h5{
+	font-size: 23px;
+}
+h6,.fl-h6{
+	font-size: 19px;
+}

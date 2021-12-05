@@ -6,10 +6,8 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 0;
 	margin-bottom: 20px;
 	letter-spacing: -0.02em;
-	text-transform: uppercase;
-	color: #3C6C54;
-	font-family: 'Bourton-Base';
-	/*font-family: 'Bourton-Regular';*/
+	text-transform: lowercase;
+	color: #2E3044;
 }
 h1,.fl-h1{
 	font-size: 82px;

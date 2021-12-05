@@ -17,29 +17,28 @@ a, a:hover, a:focus, button:hover, button:focus{
 
 body {
     background: #ffffff;
-    color: #444440;
+    color: #616268;
     font-size: 16px;
-    line-height: 24px;
-    font-family: 'Titillium Web', sans-serif;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    letter-spacing: -0.02em;
 }
 
 /*font-family: 'Work Sans', sans-serif;*/
 /*font-family: 'Source Sans Pro', sans-serif;*/
 p{
-	line-height: 1.33;
+	line-height: 1.8;
 	margin-bottom: 15px;
 }
-
 a{
 	text-decoration: underline;
-	color: #46C691;
+	color: #2E3044;
 }
 a:hover{
-	color: #46C691;
+	color: #0084A9;
 	text-decoration: none;
 }
-
 strong,b{
 	font-weight: 700;
 }
@@ -62,7 +61,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #46C691;
+  background: #002544;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -131,7 +130,7 @@ Containers
 	width: 100%;
 }
 .container{
-	max-width: 1170px;
+	max-width: 1200px;
 	width: 100%;
 }
 .container-md{
